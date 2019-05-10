@@ -5,6 +5,8 @@ Simply download and double-click the Automator script.
 
 Then `Finder -> Select arbitrary folder -> Convert to CD image`
     
+![Screencast](convert-to-cd-image-demo.gif)    
+    
 ### How to install?
 
 1. Click on the green button "Clone or Download" -> "Download ZIP".
