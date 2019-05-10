@@ -1,7 +1,9 @@
 ## MacOS/Finder context menu entry: Convert to CD image
 
-Transforms arbitrary files and folders into an ISO 9660 joliet image
-from the MacOS Finder file/folder context menu.
+Transforms arbitrary folders into ISO 9660 joliet ISO images.
+Simply download and double-click the Automator script.
+
+Then `Finder -> Select arbitrary folder -> Convert to CD image`
     
 ### How to install?
 
@@ -12,17 +14,17 @@ from the MacOS Finder file/folder context menu.
 ### How to use?
 
 1. Open Finder
-2. Select an arbitrary file or folder
+2. Select an arbitrary folder
 3. Right-click -> "Convert to CD image"
 
 Use the .iso file of the file/folder created as ISO 9660 joliet image.
 
-### How it works
+### How does it work?
 
 The whole process is using the Automator capabilities of Mac OS.
 Automator is a scripting subsystem available since OS X 10.4 (Tiger).
-It is set up as a "Service" which takes selected files/folders of 
-Finder as arguments and registeres as a context menu.
+It is set up as a "Service" which takes a selected folder in  
+Finder as an argument. The services registers the Finder context menu entry "Convert to CD image".
 
 The command executed (in bash) is:
 
